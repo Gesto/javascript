@@ -2,8 +2,6 @@
 
 * A sensible guide to keeping things organized.
 
-
-
 ## Express
 ```
 .
@@ -57,7 +55,6 @@
 We prefer a component or modular organization vs a MVC or segregated architecture.
 
 > Why? This keeps the knowledge of a particular resource together. Everything that has to do with resourceA can be found in server/api/resourceA/
-
 
 ## Angular.js
 
