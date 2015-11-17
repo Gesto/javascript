@@ -290,7 +290,10 @@ Other Style Guides
     const items = [];
     ```
 
-  - [4.2](#4.2) <a name='4.2'></a> Use Array#push instead of direct assignment to add items to an array.
+  - [4.2](#4.2) <a name='4.2'></a> Use Array#concat instead of direct assignment to add items to an array.
+  - 
+  > Why? It's easier to understand.
+  > Why not push? Push mutates the original array and returns the length of the array instead of a new array.
 
     ```javascript
     const someStack = [];
@@ -299,7 +302,7 @@ Other Style Guides
     someStack[someStack.length] = 'abracadabra';
 
     // good
-    someStack.push('abracadabra');
+    someStack = someStack.concat('abracadabra');
     ```
 
   <a name="es6-array-spreads"></a>
