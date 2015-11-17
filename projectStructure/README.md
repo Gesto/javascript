@@ -54,7 +54,7 @@
 ```
 We prefer a component or modular organization vs a MVC or segregated architecture.
 
-> Why? This keeps the knowledge of a particular resource together. Everything that has to do with resourceA can be found in server/api/resourceA/
+> Why? This keeps the knowledge of a particular resource together. Everything that has to do with <resource-name> can be found in server/api/<resource-name>/
 
 ## Angular.js
 
