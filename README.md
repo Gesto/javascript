@@ -9,6 +9,7 @@ Other Style Guides
  - [React](react/)
  - [CSS & Sass](https://github.com/airbnb/css)
  - [Ruby](https://github.com/airbnb/ruby)
+ - [Angular.js](https://github.com/johnpapa/angular-styleguide)
 
 ## Table of Contents
 
