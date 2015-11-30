@@ -42,7 +42,7 @@
   "maxcomplexity": false,
   "maxdepth":      3,
   "maxerr":        50,
-  "maxlen":        100,
+  "maxlen":        120,
   "maxparams":     3,
   "maxstatements": false,
   "mootools":      false,
