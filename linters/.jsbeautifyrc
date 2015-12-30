@@ -12,7 +12,8 @@
     "max_preserve_newlines": 2,
     "preserve_newlines": true,
     "unformatted": ["a", "sub", "sup", "b", "i", "u"],
-    "wrap_line_length": 0
+    "wrap_line_length": 0,
+    "end_with_newline": true
   },
   "css": {
     "indent_char": " ",
@@ -26,7 +27,8 @@
     "preserve_newlines": true,
     "max_preserve_newlines": 2,
     "jslint_happy": false,
-    "space_before_conditional": false
+    "space_before_conditional": false,
+    "end_with_newline": true
   },
   "sql": {
     "indent_size": 2,
