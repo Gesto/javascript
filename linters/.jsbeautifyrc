@@ -26,7 +26,7 @@
     "preserve_newlines": true,
     "max_preserve_newlines": 2,
     "jslint_happy": false,
-    "space_before_conditional": false
+    "space_before_conditional": true
   },
   "sql": {
     "indent_size": 2,
