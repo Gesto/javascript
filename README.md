@@ -292,7 +292,7 @@ Other Style Guides
     ```
 
   - [4.2](#4.2) <a name='4.2'></a> Use Array#concat instead of direct assignment to add items to an array.
-  - 
+  -
   > Why? It's easier to understand.
   > Why not push? Push mutates the original array and returns the length of the array instead of a new array.
 
@@ -1367,17 +1367,17 @@ Other Style Guides
     });
     ```
 
-  - [18.3](#18.3) <a name='18.3'></a> Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space before the argument list in function calls and declarations.
+  - [18.3](#18.3) <a name='18.3'></a> Place no space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space before the argument list in function calls and declarations.
 
     ```javascript
     // bad
-    if(isJedi) {
-      fight ();
+    if (isJedi) {
+      fight();
     }
 
     // good
-    if (isJedi) {
-      fight();
+    if(isJedi) {
+      fight ();
     }
 
     // bad
